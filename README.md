@@ -95,6 +95,7 @@ This is the private leaderboard score reported for the original submission. It i
 ```text
 predicting-electric-vehicle-purchases/
 ├── README.md
+├── cover.png
 ├── predicting-electric-vehicle-purchases.ipynb
 ├── requirements.txt
 └── .gitignore
