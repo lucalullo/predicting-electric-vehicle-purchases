@@ -1,0 +1,10 @@
+# Local Jupyter and Python artifacts
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+# Kaggle competition inputs and generated submissions
+train.csv
+test.csv
+submission.csv
