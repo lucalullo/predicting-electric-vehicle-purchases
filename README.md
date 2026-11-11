@@ -1,5 +1,7 @@
 # Predicting Electric Vehicle Purchases
 
+![Predicting Electric Vehicle Purchases - Infographic](infographic.png)
+
 **0.93827 private ROC-AUC on Kaggle - with gradient boosting built from scratch using NumPy and pandas.**
 
 Instead of importing a ready-made estimator, this competition entry implements regression trees, numerical and categorical split selection, boosting, early stopping, and ROC-AUC evaluation directly in Python.
