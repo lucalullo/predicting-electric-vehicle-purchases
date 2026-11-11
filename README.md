@@ -1,6 +1,6 @@
 # Predicting Electric Vehicle Purchases
 
-![Predicting Electric Vehicle Purchases - Infographic](infographic.png)
+![Predicting Electric Vehicle Purchases - Cover](cover.png)
 
 **0.93827 private ROC-AUC on Kaggle - with gradient boosting built from scratch using NumPy and pandas.**
 
