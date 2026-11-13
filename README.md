@@ -1,21 +1,14 @@
 # Predicting Electric Vehicle Purchases
 
-![Predicting Electric Vehicle Purchases - Cover](cover.png)
-
 **0.93827 private ROC-AUC on Kaggle - with gradient boosting built from scratch using NumPy and pandas.**
 
 Instead of importing a ready-made estimator, this competition entry implements regression trees, numerical and categorical split selection, boosting, early stopping, and ROC-AUC evaluation directly in Python.
 
-[![Kaggle Competition](https://img.shields.io/badge/Kaggle-Competition-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/lucalullo/predicting-electric-vehicle-purchases?scriptVersionId=354061061)
-![Private ROC-AUC](https://img.shields.io/badge/Private_ROC--AUC-0.93827-2E8B57)
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
-![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-from_scratch-013243?logo=numpy&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-data_processing-150458?logo=pandas&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white) ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white) [![Kaggle Notebook](https://img.shields.io/badge/Kaggle-Notebook-20BEFF?logo=kaggle&logoColor=white)](https://www.kaggle.com/code/lucalullo/predicting-electric-vehicle-purchases?scriptVersionId=354061061)
 
-**[View the original Kaggle submission (V1)](https://www.kaggle.com/code/lucalullo/predicting-electric-vehicle-purchases?scriptVersionId=354061061)** | **[Explore the notebook](predicting-electric-vehicle-purchases.ipynb)** | **[Author's GitHub](https://github.com/lucalullo)**
+[Kaggle notebook](https://www.kaggle.com/code/lucalullo/predicting-electric-vehicle-purchases?scriptVersionId=354061061) · [GitHub repository](https://github.com/lucalullo/predicting-electric-vehicle-purchases)
 
----
+![Project cover](cover.png)
 
 ## At a glance
 
@@ -30,7 +23,7 @@ Instead of importing a ready-made estimator, this competition entry implements r
 | **Validation** | Stratified holdout, custom AUC function, early stopping |
 | **Data** | Competition-provided train/test CSVs (not redistributed here) |
 
-## Why this project matters
+## Project overview
 
 This is an **algorithm-first machine learning experiment**: the emphasis is on understanding and implementing a model's internal mechanics, while still obtaining a competitive private leaderboard result.
 
@@ -42,7 +35,7 @@ The notebook covers:
 - **Model selection:** stratified validation, ROC-AUC calculated from ranks, and early stopping.
 - **Final submission:** retraining on the full labeled dataset and exporting a Kaggle-compatible `submission.csv`.
 
-## Approach
+## Methodology
 
 ```text
 Kaggle training data
@@ -82,7 +75,7 @@ submission.csv
 
 The notebook is intentionally focused on a single experiment rather than a general-purpose ML library.
 
-## Competition result
+## Results
 
 > **Private ROC-AUC: 0.93827 - Kaggle submission V1.**
 
@@ -90,7 +83,7 @@ This is the private leaderboard score reported for the original submission. It i
 
 [See the original Kaggle notebook and version](https://www.kaggle.com/code/lucalullo/predicting-electric-vehicle-purchases?scriptVersionId=354061061).
 
-## Repository contents
+## Repository structure
 
 ```text
 predicting-electric-vehicle-purchases/
@@ -103,7 +96,7 @@ predicting-electric-vehicle-purchases/
 
 The `.ipynb` file is preserved **byte-for-byte from the supplied competition notebook**. No modeling logic, outputs, or notebook commentary has been revised for this GitHub release.
 
-## Run the notebook
+## Getting started
 
 The reference environment is **Kaggle**: the original notebook expects competition input files in:
 
@@ -121,7 +114,7 @@ Then open `predicting-electric-vehicle-purchases.ipynb` in Jupyter and make the 
 
 The full training pass was computationally intensive in the captured notebook run; the exact time depends on hardware and environment.
 
-## Scope and limitations
+## Limitations
 
 - This repository archives **the version used for the competition**. It is deliberately not a post-competition refactor.
 - Some engineered thresholds were identified in earlier experiments, as disclosed in the notebook introduction.
@@ -136,7 +129,8 @@ This project complements my other work on applied machine learning, algorithms i
 - [GitHub profile and selected projects](https://github.com/lucalullo)
 - [Kaggle profile](https://www.kaggle.com/lucalullo)
 
----
-
-**Author:** [Luca Lullo](https://github.com/lucalullo)  
 **Original competition work:** [Predicting Electric Vehicle Purchases - V1](https://www.kaggle.com/code/lucalullo/predicting-electric-vehicle-purchases?scriptVersionId=354061061)
+
+## Author
+
+Created by [Luca Lullo](https://github.com/lucalullo).
